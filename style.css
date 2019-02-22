@@ -76,6 +76,7 @@ label {
 input {
     outline: none;
     border:  0px solid; 
+    text-decoration: none;
 }
 
 .form-control:focus {
