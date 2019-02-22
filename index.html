@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+
+    <!-- Moj css -->
+    <link rel="stylesheet" href="../`forma/style.css">
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+
+</head>
+
+<div class="container">
+    <div class="row" id="gore">
+        <div class="col-lg-2">
+            <span id="procenti">0%</span>
+        </div>
+        <div class="col-lg-10">
+            <h6>New York State</h6>
+            <h3>Request for Contact</h3>
+        </div>
+    </div>
+    <div class="row" id="dole">
+        <div class="col-lg-2">
+            <span class="animation-circle" id="krug1">1</span>
+        </div>
+        <div class="col-lg-10">
+            <form>
+                <div class="form-group">
+                    <label for="name">First Name</label>
+                    <input type="text" class="form-control" id="ime" placeholder="First Name"
+                        onfocus="this.placeholder= ''" required="required">
+
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-2">
+            <span class="animation-circle" id="krug2">2</span>
+        </div>
+        <div class="col-lg-10">
+            <form>
+                <div class="form-group">
+                    <label for="surname">Last Name</label>
+                    <input type="text" class="form-control" id="prezime" placeholder="Last Name"
+                        onfocus="this.placeholder= ''" required="required">
+
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-2">
+            <span class="animation-circle" id="krug3">3</span>
+        </div>
+        <div class="col-lg-10">
+            <form>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email Address"
+                        onfocus="this.placeholder= ''" required="required">
+
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-2">
+            <span class="animation-circle" id="krug4">4</span>
+        </div>
+        <div class="col-lg-10">
+            <form>
+                <label for="optradio">What is the best time to contact you</label><br>
+                <label><input type="radio" name="optradio">Monday 3pm</label required="required">
+                <br>
+                <label><input type="radio" name="optradio">Tuesday 3pm</label required="required">
+        </div>
+        </form>
+        <div class="col-lg">
+            <center>
+                <button type="submit" class="btn btn-primary">Submit request</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="../`forma/main.js"></script>
+</body>
+
+</html>
